@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             x:Class="Formulare.Anamnese">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="anamTitleText" >
+                <Setter Property="TextColor" Value=" #151515 "/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="35"/>
+            </Style>
+            <Style TargetType="Label"  >
+                <Setter Property="TextColor" Value= " #807f7f "/>
+                <Setter Property="FontSize" Value="25"/>
+            </Style>
+            <Style TargetType="RadioButton"  >
+                <Setter Property="TextColor" Value= " #807f7f "/>
+                <Setter Property="FontSize" Value="25"/>
+                
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="VerticalOptions" Value="Start"/>
+                <Setter Property="HeightRequest" Value="50"/>
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <Label  >
+                    <Label.Text>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla urna porttitor rhoncus dolor purus non enim praesent. Feugiat vivamus at augue eget arcu dictum. Amet facilisis magna etiam tempor orci eu lobortis. Tincidunt praesent semper feugiat nibh sed. Eget magna fermentum iaculis eu non diam phasellus. Tincidunt id aliquet risus feugiat in ante metus dictum. Tempus egestas sed sed risus pretium quam vulputate. A diam sollicitudin tempor id eu nisl nunc mi. Habitant morbi tristique senectus et netus. Ac felis donec et odio. Sagittis nisl rhoncus mattis rhoncus. Molestie at elementum eu facilisis. Habitant morbi tristique senectus et netus et. Sit amet mattis vulputate enim nulla aliquet porttitor lacus. Gravida arcu ac tortor dignissim convallis aenean. Pulvinar pellentesque habitant morbi tristique senectus et netus.
+
+Quis ipsum suspendisse ultrices gravida dictum. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Tortor at risus viverra adipiscing at in tellus integer feugiat. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Massa enim nec dui nunc. Velit scelerisque in dictum non. Amet consectetur adipiscing elit pellentesque. Vulputate ut pharetra sit amet aliquam. Sodales neque sodales ut etiam sit amet nisl. Arcu non sodales neque sodales ut etiam. Eu non diam phasellus vestibulum. Pretium quam vulputate dignissim suspendisse in. Mauris in aliquam sem fringilla. Amet commodo nulla facilisi nullam vehicula ipsum a. Feugiat nisl pretium fusce id velit ut tortor pretium viverra. In aliquam sem fringilla ut morbi tincidunt augue.
+
+Eros donec ac odio tempor orci dapibus ultrices in. Enim diam vulputate ut pharetra sit. Neque vitae tempus quam pellentesque. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Orci dapibus ultrices in iaculis nunc. Velit laoreet id donec ultrices tincidunt arcu non sodales. Nunc lobortis mattis aliquam faucibus purus in massa tempor. Vel turpis nunc eget lorem dolor. Varius duis at consectetur lorem donec massa. Ac odio tempor orci dapibus ultrices in iaculis nunc sed. Turpis egestas pretium aenean pharetra. Amet venenatis urna cursus eget nunc scelerisque viverra mauris.
+
+Elit sed vulputate mi sit amet mauris. Odio eu feugiat pretium nibh ipsum. Sit amet risus nullam eget felis eget. In ornare quam viverra orci sagittis eu volutpat odio. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Nec feugiat in fermentum posuere urna nec tincidunt praesent. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. Amet consectetur adipiscing elit ut aliquam. Dictum sit amet justo donec enim diam vulputate ut. Eu facilisis sed odio morbi quis commodo odio. Ipsum a arcu cursus vitae. Aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus. Volutpat consequat mauris nunc congue nisi vitae. Facilisis mauris sit amet massa. Ipsum dolor sit amet consectetur adipiscing.
+
+Ac felis donec et odio pellentesque diam volutpat commodo. A condimentum vitae sapien pellentesque habitant. Sed vulputate odio ut enim blandit volutpat maecenas volutpat. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Sed tempus urna et pharetra pharetra. Sem nulla pharetra diam sit amet nisl. A iaculis at erat pellentesque adipiscing commodo. Morbi tristique senectus et netus et malesuada fames ac turpis. Et sollicitudin ac orci phasellus egestas. Venenatis cras sed felis eget velit aliquet sagittis. Arcu non odio euismod lacinia at quis. Auctor augue mauris augue neque gravida in fermentum. Vulputate enim nulla aliquet porttitor lacus luctus. Non arcu risus quis varius quam quisque id. Et pharetra pharetra massa massa ultricies. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Semper feugiat nibh sed pulvinar. Egestas dui id ornare arcu odio ut. Sed vulputate odio ut enim blandit volutpat maecenas volutpat.
+
+Turpis nunc eget lorem dolor sed. Tortor posuere ac ut consequat. Et tortor at risus viverra adipiscing at in tellus integer. Arcu non odio euismod lacinia at quis risus sed. Elementum sagittis vitae et leo duis ut diam quam. Vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci. In eu mi bibendum neque egestas. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat. Semper viverra nam libero justo. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Arcu dictum varius duis at consectetur lorem donec massa. Amet risus nullam eget felis. Ut faucibus pulvinar elementum integer enim neque. Ut tristique et egestas quis ipsum suspendisse. Netus et malesuada fames ac turpis egestas sed.
+
+Habitasse platea dictumst vestibulum rhoncus. Orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero. Ac ut consequat semper viverra nam libero justo laoreet sit. Nunc sed blandit libero volutpat sed cras ornare arcu. Nisi scelerisque eu ultrices vitae. Dictum sit amet justo donec. Placerat vestibulum lectus mauris ultrices eros in cursus turpis massa. Fusce ut placerat orci nulla pellentesque dignissim enim sit. Sagittis vitae et leo duis. Ornare massa eget egestas purus viverra. Enim neque volutpat ac tincidunt vitae semper quis lectus. Urna molestie at elementum eu facilisis sed odio morbi. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Sapien pellentesque habitant morbi tristique senectus et netus et. Tempus urna et pharetra pharetra massa massa. A arcu cursus vitae congue mauris. Nec ultrices dui sapien eget mi proin sed. Est ullamcorper eget nulla facilisi. Nibh sit amet commodo nulla facilisi. Purus semper eget duis at tellus at urna condimentum mattis.
+
+A diam sollicitudin tempor id eu. A condimentum vitae sapien pellentesque habitant. Vitae tempus quam pellentesque nec nam aliquam sem et. Adipiscing vitae proin sagittis nisl rhoncus mattis. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla. Amet facilisis magna etiam tempor. Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Nibh tellus molestie nunc non blandit massa. Pulvinar sapien et ligula ullamcorper. Adipiscing diam donec adipiscing tristique risus nec feugiat in.
+
+Magna eget est lorem ipsum. Nulla facilisi etiam dignissim diam quis. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Cras ornare arcu dui vivamus arcu felis bibendum. Odio pellentesque diam volutpat commodo sed. Vulputate eu scelerisque felis imperdiet proin fermentum leo vel orci. Eu turpis egestas pretium aenean pharetra magna ac placerat. Ac turpis egestas maecenas pharetra convallis. Donec pretium vulputate sapien nec sagittis. Duis tristique sollicitudin nibh sit amet commodo. Viverra accumsan in nisl nisi.
+
+Faucibus vitae aliquet nec ullamcorper sit amet risus. Nisl pretium fusce id velit ut tortor. Sem integer vitae justo eget magna fermentum iaculis. Tellus pellentesque eu tincidunt tortor aliquam nulla. Accumsan lacus vel facilisis volutpat est velit egestas. Enim praesent elementum facilisis leo vel fringilla est ullamcorper. Et magnis dis parturient montes nascetur. Feugiat scelerisque varius morbi enim nunc faucibus a. Pellentesque elit eget gravida cum sociis natoque penatibus et magnis. Tellus cras adipiscing enim eu turpis egestas pretium aenean pharetra. Vitae tortor condimentum lacinia quis vel eros donec. Vitae suscipit tellus mauris a diam maecenas. Felis eget nunc lobortis mattis aliquam. Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. Sit amet facilisis magna etiam tempor. Eget sit amet tellus cras adipiscing enim eu turpis. Imperdiet proin fermentum leo vel. Vel fringilla est ullamcorper eget nulla facilisi etiam. Vel facilisis volutpat est velit egestas dui id.
+                    </Label.Text>
+                </Label>
+                
+                <Button Margin="0,10,0,0" Text="Create Pdf"  WidthRequest="100" HeightRequest="50"             
+                        TextColor="White" Clicked="button_Clicked"  Grid.Row="1"/>
+
+                </Grid>
+                
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
